@@ -21,25 +21,26 @@ The IoT devices that this home controls are based on a an ESP8266 microcontrolle
 
 <p align="center">
     <img src="documentation/readme_images/iot_devices.png">
+    <br> 2 IoT devices a thermometer (left) and a switch (right).
 </p>
 
 The controller queries and controls the IoT devices by sending commands over the network using network sockets in Python.
 
-## Screenshots
+# Screenshots
 
-### Main login screen
+## Main login screen <hr>
 
 <p align="center">
     <img src="documentation/readme_images/home.png">
 </p>
 
-### Devices list
+## Devices list
 
 <p align="center">
     <img src="documentation/readme_images/devices.png">
 </p>
 
-### Device interface page
+## Device interface page
 
 <p align="center">
     <img src="documentation/readme_images/inter.png">
