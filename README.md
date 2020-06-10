@@ -28,7 +28,7 @@ The controller queries and controls the IoT devices by sending commands over the
 
 # Screenshots
 
-## Main login screen <hr>
+## Main login screen
 
 <p align="center">
     <img src="documentation/readme_images/home.png">
