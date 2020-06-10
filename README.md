@@ -19,24 +19,26 @@ The IoT devices that this home controls are based on a an ESP8266 microcontrolle
 
 <p align="center">
     <img src="documentation/readme_images/iot_devices.png">
-    <br> The IoT devices.
 </p>
 
 ## Screenshots
 
+### Main login screen
+
 <p align="center">
     <img src="documentation/readme_images/home.png">
-    <br> The login page for the system.
 </p>
+
+### Devices list
 
 <p align="center">
     <img src="documentation/readme_images/devices.png">
-    <br> The list of devices currently in the home.
 </p>
+
+### Device interface page
 
 <p align="center">
     <img src="documentation/readme_images/inter.png">
-    <br> The interface page for a certain device; a switch.
 </p>
 
 
