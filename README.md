@@ -20,9 +20,10 @@ The IoT devices that this home controls are based on a an ESP8266 microcontrolle
 
 ## Screenshots
 
-<p align="center">
+<figure align="center">
     <img src="documentation/readme_images/home.png">
-</p>
+    <figcaption>A data flow diagram of the system.</figcaption>
+</figure>
 
 <p align="center">
     <img src="documentation/readme_images/devices.png">
