@@ -10,7 +10,9 @@ This project creates _smart home_ controller based on a raspberry pi. Clients ca
 
 A web server is also hosted on this controller which uses AJAX to dynamically change its self and send commands to the controller.
 
-![A data flow diagram](documentation/readme_images/data_flow.png)
+<p align="center">
+    <img src="documentation/readme_images/data_flow.png">
+</p>
 
 The IoT devices that this home controls are based on a an ESP8266 microcontroller onto which I loaded [MicroPython](https://micropython.org).
 
@@ -18,7 +20,15 @@ The IoT devices that this home controls are based on a an ESP8266 microcontrolle
 
 ## Screenshots
 
-![The IoT devices](documentation/readme_images/home.png)
-![The IoT devices](documentation/readme_images/devices.png)
-![The IoT devices](documentation/readme_images/inter.png)
+<p align="center">
+    <img src="documentation/readme_images/home.png">
+</p>
+
+<p align="center">
+    <img src="documentation/readme_images/devices.png">
+</p>
+
+<p align="center">
+    <img src="documentation/readme_images/inter.png">
+</p>
 
