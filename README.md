@@ -6,7 +6,7 @@ This project was written as part of my computer science A-Level during sixth for
 
 ## About
 
-This project creates _smart home_ controller based on a raspberry pi. Clients can then connect to this controller over the local (or non local with port forwarding) network. The controller is implemented using Flask to create a REST API to which the clients can use to control and monitor the home.
+This project creates a _smart home_ controller on a Raspberry Pi. Clients can then connect to this controller over the local (or non local with port forwarding) network. The controller is implemented using Flask to create a REST API to which the clients can use to control and monitor the home.
 
 A web server is also hosted on this controller which uses AJAX to dynamically change its self and send commands to the controller.
 
@@ -20,6 +20,8 @@ The IoT devices that this home controls are based on a an ESP8266 microcontrolle
 <p align="center">
     <img src="documentation/readme_images/iot_devices.png">
 </p>
+
+The controller queries and controls the IoT devices by sending commands over the network using network sockets in Python.
 
 ## Screenshots
 
