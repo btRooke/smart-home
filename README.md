@@ -1,5 +1,7 @@
 # A Level Smart Home
 
+**See ```documentation/design_document.pdf``` for detailed design notes and documentation.**
+
 ## Preface
 
 This project was written as part of my computer science A-Level during sixth form. The code is certainly not perfect, and I would definitely change many of the ways I have approached accomplishing certain tasks here. Yet it works well - and demonstrates core skills.
