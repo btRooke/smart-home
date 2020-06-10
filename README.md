@@ -12,24 +12,31 @@ A web server is also hosted on this controller which uses AJAX to dynamically ch
 
 <p align="center">
     <img src="documentation/readme_images/data_flow.png">
+    <br> A data flow diagram for the system.
 </p>
 
 The IoT devices that this home controls are based on a an ESP8266 microcontroller onto which I loaded [MicroPython](https://micropython.org).
 
-![The IoT devices](documentation/readme_images/iot_devices.png)
+<p align="center">
+    <img src="documentation/readme_images/iot_devices.png">
+    <br> The IoT devices.
+</p>
 
 ## Screenshots
 
-<figure align="center">
+<p align="center">
     <img src="documentation/readme_images/home.png">
-    <figcaption>A data flow diagram of the system.</figcaption>
-</figure>
+    <br> The login page for the system.
+</p>
 
 <p align="center">
     <img src="documentation/readme_images/devices.png">
+    <br> The list of devices currently in the home.
 </p>
 
 <p align="center">
     <img src="documentation/readme_images/inter.png">
+    <br> The interface page for a certain device; a switch.
 </p>
+
 
