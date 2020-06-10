@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/smart.css">
+
+    <title>Smart Home - Device Manager</title>
+    <script src="/js/main.js"></script>
+    <script src="/js/device.js"></script>
+    <script>
+      setApiHostnameAsDefaultIfNotSet();
+      goToLoginIfSessionKeyNotValid();
+    </script>
+  </head>
+
+  <body>
+    <div class="centered_container">
+      <div class="navbar">
+        <button onclick="window.location.href = '/list_devices.html'"> List Devices </button>
+        <button onclick="openHostnameSetter();"> Change API Host </button>
+        <button onclick="window.location.href = '/add_device.html'"> Add Device </button>
+        <button onclick="log_out()"> Log Out </button>
+      </div>
+
+      <script>
+        loadDeviceInfo();
+      </script>
+
+    </div>
+  </body>
+</html>

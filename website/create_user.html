@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/smart.css">
+
+    <title>Smart Home - Create User</title>
+    <script src="/js/main.js"></script>
+    <script src="/js/create_user.js"></script>
+    <script>
+      setApiHostnameAsDefaultIfNotSet();
+    </script>
+  </head>
+
+  <body>
+    <div class="create_centered_container">
+      <div class="big_title"> Create User</div>
+      <input id="username" type="text" class="normal_text_entry center_horizontally" placeholder="Username"></input>
+      <br>
+      <input id="password" type="text" class="normal_text_entry center_horizontally" placeholder="Password"></input>
+      <br>
+      <input id="email" type="text" class="normal_text_entry center_horizontally" placeholder="Email (Optional)"></input>
+      <br>
+      <button class="normal_button center_horizontally spaced" onclick="create_user()" style="width: 120px"> Create User </button>
+      <button class="normal_button center_horizontally spaced" onclick="window.location.href = '/login.html'" style="width: 80px"> Back </button>
+    </div>
+  </body>
+</html>

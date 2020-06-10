@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/smart.css">
+
+    <title>Smart Home - Login</title>
+    <script src="/js/main.js"></script>
+    <script src="/js/login.js"></script>
+    <script>
+      setApiHostnameAsDefaultIfNotSet();
+      goToListDevicesIfSessionKeyValid();
+    </script>
+  </head>
+
+  <body>
+    <div class="login_centered_container">
+      <img style="width:350px" class="center_horizontally" src="logo.png" alt="Smart Home Logo">
+      <br>
+      <input id="username" type="text" class="normal_text_entry center_horizontally" placeholder="Username"></input>
+      <br>
+      <input id="password" type="password" class="normal_text_entry center_horizontally" placeholder="Password"></input>
+      <br>
+      <button class="normal_button center_horizontally spaced" onclick="login()"> Login </button>
+      <button class="normal_button center_horizontally spaced" onclick="openHostnameSetter();" style="width: 160px"> Set API Hostname </button>
+      <button class="normal_button center_horizontally spaced" onclick="window.location.href = '/create_user.html'" style="width: 160px"> Create User </button>
+    </div>
+  </body>
+</html>

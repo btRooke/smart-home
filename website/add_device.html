@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/smart.css">
+
+    <title>Smart Home - Create User</title>
+    <script src="/js/main.js"></script>
+    <script src="/js/add_device.js"></script>
+    <script>
+      setApiHostnameAsDefaultIfNotSet();
+    </script>
+  </head>
+
+  <body>
+    <div class="centered_container">
+      <div class="navbar">
+        <button onclick="window.location.href = '/list_devices.html'"> List Devices </button>
+        <button onclick="openHostnameSetter();"> Change API Host </button>
+        <button onclick="window.location.href = '/add_device.html'"> Add Device </button>
+        <button onclick="log_out()"> Log Out </button>
+      </div>
+    </div>
+
+    <div class="create_centered_container">
+      <div class="big_title"> Add Device </div>
+      <input id="device_name" type="text" class="normal_text_entry center_horizontally" placeholder="Device Name"></input>
+      <br>
+      <input id="device_ip" type="text" class="normal_text_entry center_horizontally" placeholder="Device IP (E.G. 192.168.1.234)"></input>
+      <br>
+      <input id="auth_key" type="text" class="normal_text_entry center_horizontally" placeholder="Device Authentication Key"></input>
+      <br>
+      <button id="add_device_button" class="normal_button center_horizontally spaced" onclick="addDevice()" style="width: 120px"> Add Device </button>
+    </div>
+  </body>
+</html>

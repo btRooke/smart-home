@@ -1,0 +1,4 @@
+green: #7FFFA1
+blue: #728AFF
+red: #FF8987
+

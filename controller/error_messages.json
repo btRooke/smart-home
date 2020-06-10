@@ -1,0 +1,19 @@
+{
+    "1": "Success.",
+    "2": "API Use Error.",
+    "3": "Server Error.",
+    "4": "Missing Parameters.",
+    "5": "Username already exists.",
+    "6": "Invalid Parameters.",
+    "7": "Incorrect password.",
+    "8": "Username doesn’t exist.",
+    "9": "Insufficient Permissions.",
+    "10": "deviceID not in use.",
+    "12": "Request timed out",
+    "11": "General problem connecting to device. Ensure the device is powered and connected to the network.",
+    "13": "General problem executing a command on a device.",
+    "14": "Authentication Key incorrect.",
+    "15": "Non successful device response.",
+    "16": "deviceID doesn't exist.",
+    "17": "Invalid command for this device."
+}

@@ -1,0 +1,489 @@
+/* general */
+
+body{
+  text-align: center;
+}
+
+* {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+div.login_centered_container{
+  width: 400px;
+  height: 635px;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+div.create_centered_container{
+  width: 400px;
+  height: 450px;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.center_horizontally{
+  display: block;
+  margin: 0 auto;
+}
+
+input.normal_text_entry{
+  box-shadow:0 0 5px 1px #C0C0C0;
+  border-radius: 4px;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-box-sizing: border-box; /* These stop the box coming out of the parent */
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 250px;
+}
+
+input[type=password]{
+  text-security: disc;
+  -webkit-text-security: disc;
+  -moz-text-security: disc;
+}
+
+button.normal_button{
+  outline: none !important;
+  font-weight: bold;
+  color: white;
+  border-radius: 25px;
+  border-color: black;
+  border-width: 0;
+  border-style: solid;
+  background-color: black;
+  width: 100px;
+  height: 35px;
+}
+
+button.normal_button.spaced{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+button.normal_button:hover{
+  background-color: #61cc7e;
+}
+
+div.centered_container{
+    width: 600px;
+    text-align: left;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 0;
+    vertical-align: middle;
+  }
+
+div.big_title{
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+  padding: 10px;
+  padding-left: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+div.device_description_container{
+  height: 100px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #728AFF;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow:0 0 5px 0.1px black;
+  position: relative;
+}
+
+div.device_name{
+  font-size: 30px;
+  overflow-y: hidden;
+  overflow-x: auto;
+
+  white-space: nowrap;
+  width: 225px;
+  height: 50px;
+  color: black;
+  margin: 0px;
+  margin-left: 17px;
+  position: absolute;
+  top: 11px;
+}
+
+div.owner_username{
+  font-size: 18px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 225px;
+  height: 30px;
+  color: black;
+  margin: 0px;
+  margin-left: 17px;
+  position: absolute;
+  bottom: 10px;
+}
+
+div.device_type{
+  font-size: 25px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 250px;
+  height: 40px;
+  color: black;
+  margin: 0px;
+  margin-left: 17px;
+  position: absolute;
+  top: 32px;
+  left: 240px;
+}
+
+
+button.normal_button.device_button{
+  border-radius: 15px;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  right: 15px;
+  top: 15px;
+}
+
+div.navbar{
+  top: 0;
+  background-color: grey;
+  width: 100%;
+  height: 30px;
+}
+
+div.navbar button{
+  border-style: none;
+  color: white;
+  background-color: transparent;
+  height: 100%;
+}
+
+div.navbar button:hover{
+  background-color: black;
+}
+
+div.hostname_setter_container{
+  text-align: center;
+  height: 350px;
+  width: 250px;
+  z-index: 1;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  background-color: white;
+  box-shadow: 0 0 5px 0.1px black;
+  display: inline-block;
+  position: fixed;
+  top: 50%;
+  margin: -175px -125px;
+}
+
+button.normal_button.hostname_setter_exit{
+  text-align: center;
+  border-radius: 5px;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 15px;
+  top: 15px;
+}
+
+input.normal_text_entry.hostname_setter_text_entry{
+  width: 200px;
+  position: absolute;
+  bottom: 100px;
+  right: 25px;
+}
+
+button.normal_button.hostname_setter_apply{
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  bottom: 50px;
+  right: 75px;
+}
+
+div.hostname_setter_label{
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 55px;
+  width: 200px;
+  height: 300px;
+}
+
+
+div.devices_title_container{
+  position: relative;
+  width: 100%;
+  height: 100px;
+}
+
+div.big_title.list_devices{
+  position: absolute;
+  width: 350px;
+  margin: 0;
+  padding: 0;
+  bottom: 12px;
+  left: 20px;
+}
+
+button.normal_button.refresh_button{
+  width: 200px;
+  height: 80px;
+  position: absolute;
+  right: 10px;
+  top: 16px;
+}
+
+div.toggle_box, div.thermometer_box{
+  height: 160px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow:0 0 5px 0.1px black;
+  position: relative;
+}
+
+button.normal_button.toggle_button{
+  border-radius: 15px;
+  position: absolute;
+  width: 290px;
+  height: 70px;
+  left: 15px;
+  bottom: 15px;
+}
+
+div.current_state, div.current_temp{
+  font-size: 30px;
+  overflow: hidden;
+  text-align: right;
+
+  white-space: nowrap;
+  width: 300px;
+  height: 50px;
+  color: black;
+  margin: 0px;
+  position: absolute;
+  bottom: 20px;
+  right: 18px;
+}
+
+div.current_temp{
+  font-size: 30px;
+  text-align: left;
+
+  white-space: nowrap;
+  padding: 10px 60px;
+  color: black;
+  margin: 0px;
+  position: absolute;
+  bottom: 20px;
+  right: 18px;
+}
+
+div.owner_and_type{
+  font-size: 30px;
+  overflow: hidden;
+
+  white-space: nowrap;
+  width: 600px;
+  height: 50px;
+  color: black;
+  margin: 0px;
+  margin-left: 30px;
+  position: absolute;
+  top: 19px;
+}
+
+div.temperature_box{
+  height: 160px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow:0 0 5px 0.1px black;
+  position: relative;
+}
+
+div.current_temp_label{
+  font-size: 30px;
+  overflow: hidden;
+
+  white-space: nowrap;
+  width: 300px;
+  height: 50px;
+  color: black;
+  margin: 0px;
+  position: absolute;
+  bottom: 15px;
+  left: 30px;
+}
+
+div.current_temp{
+  font-size: 30px;
+  text-align: center;
+  overflow: hidden;
+  height: 45px;
+  width: 100px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 15px;
+  margin: 0px;
+  color: black;
+  box-shadow:0 0 5px 0.1px black;
+  position: absolute;
+  bottom: 15px;
+  right: 30px;
+}
+
+div.permissions_box{
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow:0 0 5px 0.1px black;
+  position: relative;
+}
+
+div.permissions_title{
+  display: inline-block;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 20px;
+}
+
+button.normal_button.apply_permission{
+  border-radius: 15px;
+  display: inline-block;
+  height: 65px;
+  width: 180px;
+  padding: 5px;
+  font-size: 20px;
+}
+
+div.permission_header_container{
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 15px;
+  margin: 20px;
+  box-shadow:0 0 5px 0.1px black;
+  display: block;
+  height: 100px;
+  width: 550px;
+  position: relative;
+}
+
+div.permission_types_label, div.user_select_label{
+  position: absolute;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 20px;
+  top: 10px;
+}
+
+select.permissions_dropdown{
+  box-shadow:0 0 5px 1px #C0C0C0;
+  border-radius: 4px;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  height: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-box-sizing: border-box; /* These stop the box coming out of the parent */
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 250px;
+  right: 15px;
+  top: 32px;
+  position: absolute;
+}
+
+select.permissions_dropdown.user_select{
+  right: 120px;
+}
+
+button.normal_button.add_user_to_permission{
+  position: absolute;
+  right: 10px;
+  border-radius: 15px;
+  height: 80px;
+  width: 80px;
+  padding: 5px;
+  font-size: 20px;
+  top: 10px;
+}
+
+div.permission_user_container{
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 15px;
+  margin: 20px;
+  box-shadow:0 0 5px 0.1px black;
+  display: block;
+  height: 50px;
+  width: 550px;
+  position: relative;
+}
+
+div.permission_username{
+  position: absolute;
+  font-size: 25px;
+  top: 7px;
+  left: 18px;
+}
+
+button.normal_button.remove_user_from_permission{
+  position: absolute;
+  right: 10px;
+  border-radius: 15px;
+  height: 30px;
+  width: 80px;
+  padding: 5px;
+  font-size: 10px;
+  top: 10px;
+}
+
+div.permission_explaination{
+  font-size: 15px;
+  margin: 20px;
+}
