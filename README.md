@@ -1,6 +1,6 @@
 # A Level Smart Home
 
-**See ```documentation/design_document.pdf``` for detailed design notes and documentation.**
+**See [documentation/design_document.pdf](documentation/design_document.pdf) for detailed design notes and documentation.**
 
 ## Preface
 
